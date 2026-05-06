@@ -379,3 +379,24 @@ while i < 6:
     if i == 4:
         break  # This will exit the loop when i is equal to 4
     i += 1'''
+ 
+# i = 0
+# while i < 10:
+#    print(i)
+#    if i >= 6:
+#       continue  # This will skip the rest of the loop when i is greater than or equal to 6
+# i += 1
+
+
+# i = 1
+# while i < 6:
+#     print(i)
+#     i += 1
+# else:
+#     print("i is no longer less than 6")
+
+# for loop is used to iterate over a sequence (such as a list, tuple, string, etc.) and execute a block of code for each item in the sequence. The syntax of a for loop in Python is as follows:
+
+# fruit = ["apple", "banana", "cherry"]
+# for x in range(3):
+#     print(x)
