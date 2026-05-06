@@ -308,8 +308,74 @@ if name == "Alice":
       if has_id:
         print("Alice is an adult.")
     else:
-        print("Alice is a minor.")'''
+        print("Alice is a minor.")
 
 userName = "Sandra"
 password = "Sandy#56"
 is_Active = True        
+if userName == "Sandra" and password == "Sandy#56" and is_Active:
+    print("Login successful!")
+else:    
+    print("Login failed. Please check your username, password, and account status.")'''
+
+'''age = 20
+if age < 13:
+    print("Child.")
+elif age < 18:
+    print("Teenager.")
+else:
+    print("Adult.")'''
+
+
+'''month = 4
+match month:
+  case 1:
+    print("January")
+  case 2:
+    print("February")
+  case 3:
+    print("March")
+  case 4:
+    print("April")
+  case 5:
+    print("May")
+  case 6:
+    print("June")
+  case 7:
+    print("July")'''
+
+'''use _ to represent a default case in a match statement. The _ case will be executed if none of the other cases match the value being checked.
+day = 4
+match day:
+  case 6:
+    print("Today is Saturday")
+  case 7:
+    print("Today is Sunday")
+  case _:
+    print("Looking forward to the Weekend")'''
+
+# use the pipe character | to specify multiple values for a single case in a match statement. This allows you to handle multiple cases with the same block of code.
+
+'''month = 4
+match month:
+  case 1 | 2 | 3 | 4 | 5:
+    print("This is a Easter month")
+  case 6 | 7:
+    print("I will find it")'''
+
+
+#while loop is used to execute a block of code repeatedly as long as a certain condition is true. The syntax for a while loop in Python is as follows:
+
+# '''fruit = ["apple", "banana", "cherry"]
+# i = 0
+# while i < len(fruit):
+#     print(fruit[i])'''
+# i += 1 #remember to increment the counter variable (i in this case) to avoid an infinite loop.
+
+
+'''i = 1
+while i < 6:
+    print(i)
+    if i == 4:
+        break  # This will exit the loop when i is equal to 4
+    i += 1'''
